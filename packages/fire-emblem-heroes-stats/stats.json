@@ -573,13 +573,13 @@
         },
         {
           "name": "Dragon Gaze",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Draconic Aura",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Attack +1",
@@ -591,7 +591,7 @@
         },
         {
           "name": "Attack +3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Windsweep 1",
@@ -603,7 +603,7 @@
         },
         {
           "name": "Windsweep 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -694,13 +694,13 @@
         },
         {
           "name": "Holy Vestments",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Sacred Cowl",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Earth Boost 1",
@@ -712,7 +712,7 @@
         },
         {
           "name": "Earth Boost 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Armor March 1",
@@ -724,7 +724,7 @@
         },
         {
           "name": "Armor March 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -1165,18 +1165,18 @@
       "skills": [
         {
           "name": "Iron Sword",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Steel Sword",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Slaying Edge",
           "default": 4,
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Dark Mystletainn",
@@ -1186,7 +1186,7 @@
         {
           "name": "Dragon Gaze",
           "default": 4,
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Draconic Aura",
@@ -1195,11 +1195,11 @@
         },
         {
           "name": "Brazen Atk/Def 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Brazen Atk/Def 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Brazen Atk/Def 3",
@@ -1207,7 +1207,7 @@
         },
         {
           "name": "Seal Def 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Seal Def/Res 1",
@@ -1894,7 +1894,7 @@
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -1917,7 +1917,7 @@
         },
         {
           "name": "Swift Sparrow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Desperation 1",
@@ -1929,7 +1929,7 @@
         },
         {
           "name": "Desperation 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -2220,7 +2220,7 @@
         },
         {
           "name": "Earth Dance 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Hone Spd 1",
@@ -2232,7 +2232,7 @@
         },
         {
           "name": "Hone Fliers",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -2336,7 +2336,7 @@
         },
         {
           "name": "Triangle Adept 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Res 1",
@@ -2348,7 +2348,7 @@
         },
         {
           "name": "Drive Res 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -2452,7 +2452,7 @@
         },
         {
           "name": "Speed +3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortify Res 1",
@@ -2464,7 +2464,7 @@
         },
         {
           "name": "Fortify Res 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -3634,7 +3634,7 @@
         },
         {
           "name": "Chilling Wind",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -4345,7 +4345,7 @@
         },
         {
           "name": "Spd/Def Bond 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Def 1",
@@ -4357,7 +4357,7 @@
         },
         {
           "name": "Ward Fliers",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -4461,7 +4461,7 @@
         },
         {
           "name": "Defiant Spd 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Live for Bounty",
@@ -4506,6 +4506,139 @@
               26,
               30,
               33
+            ],
+            "res": [
+              16,
+              19,
+              22
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Camilla: Tropical Beauty",
+      "shortName": "Camilla",
+      "title": "Tropical Beauty",
+      "origin": "Fire Emblem Fates",
+      "weaponType": "Blue Tome",
+      "moveType": "Flying",
+      "rarities": "5",
+      "releaseDate": "2018-07-10",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Camilla Tropical Beauty.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Camilla Tropical Beauty.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Camilla Tropical Beauty.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Thunder",
+          "default": 1,
+          "rarity": "-"
+        },
+        {
+          "name": "Elthunder",
+          "default": 3,
+          "rarity": 2
+        },
+        {
+          "name": "Juicy Wave",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Juicy Wave+",
+          "default": 5,
+          "rarity": 5
+        },
+        {
+          "name": "Dragon Gaze",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "default": "-",
+          "rarity": 4
+        },
+        {
+          "name": "Death Blow 1",
+          "rarity": 1
+        },
+        {
+          "name": "Death Blow 2",
+          "rarity": 2
+        },
+        {
+          "name": "Death Blow 3",
+          "rarity": 4
+        },
+        {
+          "name": "Flier Formation 1",
+          "rarity": 3
+        },
+        {
+          "name": "Flier Formation 2",
+          "rarity": 4
+        },
+        {
+          "name": "Flier Formation 3",
+          "rarity": 5
+        },
+        {
+          "name": "Hone Atk 1",
+          "rarity": 3
+        },
+        {
+          "name": "Hone Atk 2",
+          "rarity": 4
+        },
+        {
+          "name": "Hone Fliers",
+          "rarity": 5
+        }
+      ],
+      "growthPoints": {
+        "hp": 6,
+        "atk": 8,
+        "spd": 8,
+        "def": 4,
+        "res": 3
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 17,
+            "atk": 7,
+            "spd": 10,
+            "def": 6,
+            "res": 4
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              35,
+              39,
+              42
+            ],
+            "atk": [
+              30,
+              33,
+              36
+            ],
+            "spd": [
+              33,
+              36,
+              39
+            ],
+            "def": [
+              20,
+              23,
+              26
             ],
             "res": [
               16,
@@ -5444,13 +5577,13 @@
         },
         {
           "name": "Rising Light",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Blazing Light",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Distant Def 1",
@@ -5462,7 +5595,7 @@
         },
         {
           "name": "Distant Def 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Def 1",
@@ -5474,7 +5607,7 @@
         },
         {
           "name": "Spur Def 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -5583,7 +5716,7 @@
         },
         {
           "name": "Chill Spd 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Hone Atk 1",
@@ -5595,7 +5728,7 @@
         },
         {
           "name": "Hone Atk 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -5699,7 +5832,7 @@
         },
         {
           "name": "Wind Boost 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Threaten Atk 1",
@@ -5711,7 +5844,7 @@
         },
         {
           "name": "Threaten Atk 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -6193,7 +6326,7 @@
         },
         {
           "name": "Brazen Atk/Def 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Wary Fighter 1",
@@ -6205,7 +6338,7 @@
         },
         {
           "name": "Wary Fighter 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -6447,7 +6580,7 @@
         },
         {
           "name": "Atk/Def 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Axe Exp. 1",
@@ -6459,7 +6592,7 @@
         },
         {
           "name": "Axe Exp. 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -7254,11 +7387,11 @@
         },
         {
           "name": "Harsh Command",
-          "default": "-",
+          "default": 5,
           "rarity": "-"
         },
         {
-          "name": "-",
+          "name": "Armored Blow 1",
           "rarity": "-"
         },
         {
@@ -7582,7 +7715,7 @@
         },
         {
           "name": "Escape Route 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Breath of Life 1",
@@ -7594,7 +7727,7 @@
         },
         {
           "name": "Breath of Life 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -8236,7 +8369,7 @@
         },
         {
           "name": "Swift Strike 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortify Res 1",
@@ -8248,7 +8381,7 @@
         },
         {
           "name": "Fortify Fliers",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -8319,48 +8452,48 @@
       "skills": [
         {
           "name": "Wind",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Elwind",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Rexcalibur",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Divine Naga",
           "default": 5,
-          "rarity": "-"
-        },
-        {
-          "name": "Ardent Sacrifice",
-          "default": 5,
-          "rarity": "-"
-        },
-        {
-          "name": "Quick Riposte 1",
-          "rarity": "-"
-        },
-        {
-          "name": "Quick Riposte 2",
-          "rarity": "-"
-        },
-        {
-          "name": "Quick Riposte 3",
           "rarity": 5
         },
         {
+          "name": "Ardent Sacrifice",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Quick Riposte 1",
+          "rarity": 1
+        },
+        {
+          "name": "Quick Riposte 2",
+          "rarity": 2
+        },
+        {
+          "name": "Quick Riposte 3",
+          "rarity": 4
+        },
+        {
           "name": "Spd Ploy 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Spd Ploy 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Spd Ploy 3",
@@ -8468,7 +8601,7 @@
         },
         {
           "name": "Death Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Atk 1",
@@ -8480,7 +8613,7 @@
         },
         {
           "name": "Drive Atk 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -8833,7 +8966,7 @@
         },
         {
           "name": "Fierce Stance 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Quick Riposte 1",
@@ -8845,7 +8978,7 @@
         },
         {
           "name": "Quick Riposte 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Infantry Pulse 1",
@@ -8857,7 +8990,7 @@
         },
         {
           "name": "Infantry Pulse 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -9365,7 +9498,7 @@
         },
         {
           "name": "Swift Sparrow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Desperation 1",
@@ -9377,7 +9510,7 @@
         },
         {
           "name": "Desperation 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "R Tome Exp. 1",
@@ -9389,7 +9522,7 @@
         },
         {
           "name": "R Tome Exp. 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -9656,13 +9789,13 @@
         },
         {
           "name": "Rising Light",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Growing Light",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fury 1",
@@ -9674,7 +9807,7 @@
         },
         {
           "name": "Fury 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Lunge",
@@ -9782,7 +9915,7 @@
         },
         {
           "name": "Death Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Flier Formation 1",
@@ -9794,7 +9927,7 @@
         },
         {
           "name": "Flier Formation 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -9876,7 +10009,7 @@
         {
           "name": "Gravity+",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Heal",
@@ -9900,7 +10033,7 @@
         },
         {
           "name": "Kindled-Fire Balm",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -9913,7 +10046,7 @@
         },
         {
           "name": "Live to Serve 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -10022,7 +10155,7 @@
         },
         {
           "name": "Spd/Res 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "G Tome Valor 1",
@@ -10034,7 +10167,7 @@
         },
         {
           "name": "G Tome Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -10469,13 +10602,13 @@
         },
         {
           "name": "Daylight",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Sol",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fierce Stance 1",
@@ -10487,7 +10620,7 @@
         },
         {
           "name": "Sturdy Stance 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Solar Brace",
@@ -10503,7 +10636,7 @@
         },
         {
           "name": "Fortify Def 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -10594,13 +10727,13 @@
         },
         {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Moonbow",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Seal Def 1",
@@ -10612,7 +10745,7 @@
         },
         {
           "name": "Seal Def 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Threaten Def 1",
@@ -10624,7 +10757,7 @@
         },
         {
           "name": "Threaten Def 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -11083,13 +11216,13 @@
         },
         {
           "name": "Daylight",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Noontime",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Wings of Mercy 1",
@@ -11101,7 +11234,7 @@
         },
         {
           "name": "Wings of Mercy 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Bow Exp. 1",
@@ -11113,7 +11246,7 @@
         },
         {
           "name": "Bow Exp. 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -11810,13 +11943,13 @@
         },
         {
           "name": "Holy Vestments",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Sacred Cowl",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Ice Mirror",
@@ -11833,7 +11966,7 @@
         },
         {
           "name": "Atk/Def Bond 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Shield Pulse 1",
@@ -11845,7 +11978,7 @@
         },
         {
           "name": "Shield Pulse 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Atk 1",
@@ -11857,7 +11990,7 @@
         },
         {
           "name": "Drive Atk 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -12145,7 +12278,7 @@
         },
         {
           "name": "Armored Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Seal Spd 1",
@@ -12157,7 +12290,7 @@
         },
         {
           "name": "Seal Atk/Spd 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -12639,7 +12772,7 @@
         },
         {
           "name": "Vantage 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Def Ploy 1",
@@ -12651,7 +12784,7 @@
         },
         {
           "name": "Def Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -12733,7 +12866,7 @@
         {
           "name": "Gravity+",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Heal",
@@ -12757,7 +12890,7 @@
         },
         {
           "name": "Heavenly Light",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -12770,7 +12903,7 @@
         },
         {
           "name": "Wrathful Staff 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -13205,7 +13338,7 @@
         },
         {
           "name": "Wind Boost 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Sword Valor 1",
@@ -13217,7 +13350,7 @@
         },
         {
           "name": "Sword Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -13308,13 +13441,13 @@
         },
         {
           "name": "Chilling Wind",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Glacies",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortress Res 1",
@@ -13326,7 +13459,7 @@
         },
         {
           "name": "Fortress Res 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Chilling Seal",
@@ -13342,7 +13475,7 @@
         },
         {
           "name": "Res Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -14098,41 +14231,41 @@
       "skills": [
         {
           "name": "Iron Lance",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Steel Lance",
-          "default": "-",
+          "default": 3,
           "rarity": "-"
         },
         {
           "name": "Silver Lance",
-          "default": "-",
+          "default": 4,
           "rarity": "-"
         },
         {
           "name": "Gradivus",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Retribution",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Vengeance",
           "default": "-",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Brazen Def/Res 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Brazen Def/Res 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Brazen Def/Res 3",
@@ -14140,15 +14273,15 @@
         },
         {
           "name": "Bold Fighter 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Bold Fighter 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Bold Fighter 3",
-          "rarity": 5
+          "rarity": 4
         }
       ],
       "growthPoints": {
@@ -14428,13 +14561,13 @@
         },
         {
           "name": "Buckler",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Pavise",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Distant Counter",
@@ -14450,7 +14583,7 @@
         },
         {
           "name": "Goad Armor",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -14541,13 +14674,13 @@
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Glimmer",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Distant Counter",
@@ -14563,7 +14696,7 @@
         },
         {
           "name": "Wary Fighter 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -14609,6 +14742,123 @@
               21,
               24,
               27
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Hector: Marquess of Ostia",
+      "shortName": "Hector",
+      "title": "Marquess of Ostia",
+      "origin": "Fire Emblem: The Blazing Blade",
+      "weaponType": "Green Axe",
+      "moveType": "Armored",
+      "rarities": "5",
+      "releaseDate": "2018-06-28",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Hector Marquess of Ostia.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Hector Marquess of Ostia.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Hector Marquess of Ostia.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Iron Axe",
+          "default": "-",
+          "rarity": 1
+        },
+        {
+          "name": "Steel Axe",
+          "default": "-",
+          "rarity": 2
+        },
+        {
+          "name": "Silver Axe",
+          "default": "-",
+          "rarity": 3
+        },
+        {
+          "name": "Thunder Armads",
+          "default": 5,
+          "rarity": 5
+        },
+        {
+          "name": "Dragon Gaze",
+          "default": 5,
+          "rarity": 3
+        },
+        {
+          "name": "Draconic Aura",
+          "default": "-",
+          "rarity": 4
+        },
+        {
+          "name": "Distant Counter",
+          "rarity": 5
+        },
+        {
+          "name": "Vengeful Fighter 1",
+          "rarity": 1
+        },
+        {
+          "name": "Vengeful Fighter 2",
+          "rarity": 2
+        },
+        {
+          "name": "Vengeful Fighter 3",
+          "rarity": 4
+        },
+        {
+          "name": "Ostia's Pulse",
+          "rarity": 5
+        }
+      ],
+      "growthPoints": {
+        "hp": 7,
+        "atk": 10,
+        "spd": 4,
+        "def": 8,
+        "res": 6
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 23,
+            "atk": 10,
+            "spd": 6,
+            "def": 12,
+            "res": 4
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              44,
+              47,
+              50
+            ],
+            "atk": [
+              37,
+              40,
+              44
+            ],
+            "spd": [
+              20,
+              23,
+              26
+            ],
+            "def": [
+              35,
+              38,
+              41
+            ],
+            "res": [
+              22,
+              26,
+              29
             ]
           }
         }
@@ -14676,7 +14926,7 @@
         },
         {
           "name": "Armor March 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -15258,23 +15508,23 @@
       "skills": [
         {
           "name": "Iron Lance",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Steel Lance",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Brave Lance",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Brave Lance+",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Hinoka's Spear",
@@ -15283,21 +15533,21 @@
         },
         {
           "name": "Rising Wind",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Blazing Wind",
           "default": "-",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Defiant Def 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Defiant Def 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Defiant Def 3",
@@ -15305,15 +15555,15 @@
         },
         {
           "name": "Hone Spd 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Hone Spd 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Hone Fliers",
-          "rarity": 5
+          "rarity": 4
         }
       ],
       "growthPoints": {
@@ -15404,13 +15654,13 @@
         },
         {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Luna",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Aether",
@@ -15427,7 +15677,7 @@
         },
         {
           "name": "Steady Breath",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Beorc's Blessing",
@@ -15443,7 +15693,7 @@
         },
         {
           "name": "Threaten Def 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -15534,13 +15784,13 @@
         },
         {
           "name": "Daylight",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Sol",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Radiant Aether",
@@ -15557,7 +15807,7 @@
         },
         {
           "name": "Warding Breath",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Seal Def 1",
@@ -15569,7 +15819,7 @@
         },
         {
           "name": "Seal Atk/Def 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Def Tactic 1",
@@ -15581,7 +15831,7 @@
         },
         {
           "name": "Def Tactic 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -15672,13 +15922,13 @@
         },
         {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Luna",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Aether",
@@ -15695,7 +15945,7 @@
         },
         {
           "name": "Heavy Blade 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Swordbreaker 1",
@@ -15707,7 +15957,7 @@
         },
         {
           "name": "Swordbreaker 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -15811,7 +16061,7 @@
         },
         {
           "name": "Gale Dance 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Hone Atk 1",
@@ -15823,7 +16073,7 @@
         },
         {
           "name": "Hone Atk 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -15913,6 +16163,11 @@
           "rarity": "-"
         },
         {
+          "name": "Rally Defense",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
           "name": "Rally Atk/Def",
           "default": "-",
           "rarity": "-"
@@ -15930,11 +16185,11 @@
           "rarity": "-"
         },
         {
-          "name": "-",
+          "name": "Spur Atk 1",
           "rarity": "-"
         },
         {
-          "name": "-",
+          "name": "Spur Atk 2",
           "rarity": "-"
         },
         {
@@ -15943,11 +16198,11 @@
         }
       ],
       "growthPoints": {
-        "hp": null,
-        "atk": null,
-        "spd": null,
-        "def": null,
-        "res": null
+        "hp": 7,
+        "atk": 7,
+        "spd": 9,
+        "def": 7,
+        "res": 3
       },
       "stats": {
         "1": {
@@ -15962,29 +16217,29 @@
         "40": {
           "5": {
             "hp": [
-              null,
-              null,
-              null
+              39,
+              42,
+              45
             ],
             "atk": [
-              null,
-              null,
-              null
+              30,
+              33,
+              36
             ],
             "spd": [
-              null,
-              null,
-              null
+              34,
+              37,
+              40
             ],
             "def": [
-              null,
-              null,
-              null
+              27,
+              30,
+              33
             ],
             "res": [
-              null,
-              null,
-              null
+              17,
+              20,
+              23
             ]
           }
         }
@@ -16030,13 +16285,13 @@
         },
         {
           "name": "Chilling Wind",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Iceberg",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortress Res 1",
@@ -16048,7 +16303,7 @@
         },
         {
           "name": "Fortress Res 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Cancel Affinity 1",
@@ -16060,7 +16315,7 @@
         },
         {
           "name": "Cancel Affinity 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -16151,13 +16406,13 @@
         },
         {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Moonbow",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Darting Blow 1",
@@ -16169,7 +16424,7 @@
         },
         {
           "name": "Swift Sparrow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Vantage 1",
@@ -16181,7 +16436,7 @@
         },
         {
           "name": "Vantage 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Odd Atk Wave 1",
@@ -16193,7 +16448,7 @@
         },
         {
           "name": "Odd Atk Wave 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -16289,7 +16544,7 @@
         },
         {
           "name": "Glimmer",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -16302,7 +16557,7 @@
         },
         {
           "name": "Life and Death 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Threaten Spd 1",
@@ -16314,7 +16569,7 @@
         },
         {
           "name": "Threaten Spd 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -16612,7 +16867,7 @@
         },
         {
           "name": "Bracing Blow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Wary Fighter 1",
@@ -16624,7 +16879,7 @@
         },
         {
           "name": "Wary Fighter 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -17243,13 +17498,13 @@
         },
         {
           "name": "Dragon Gaze",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Dragon Fang",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Resistance +1",
@@ -17261,7 +17516,7 @@
         },
         {
           "name": "Resistance +3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Breath of Life 1",
@@ -17273,7 +17528,7 @@
         },
         {
           "name": "Breath of Life 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -18182,13 +18437,13 @@
         },
         {
           "name": "Retribution",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Reprisal",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Defiant Atk 1",
@@ -18200,7 +18455,7 @@
         },
         {
           "name": "Defiant Atk 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Desperation 1",
@@ -18212,7 +18467,7 @@
         },
         {
           "name": "Desperation 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -18303,7 +18558,7 @@
         },
         {
           "name": "Dragon Gaze",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -18423,14 +18678,19 @@
           "rarity": "-"
         },
         {
+          "name": "Reese's Tome",
+          "default": "-",
+          "rarity": 5
+        },
+        {
           "name": "Chilling Wind",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Glacies",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Death Blow 1",
@@ -18442,7 +18702,7 @@
         },
         {
           "name": "Swift Sparrow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Atk Ploy 1",
@@ -18454,7 +18714,7 @@
         },
         {
           "name": "Atk Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -18514,7 +18774,7 @@
       "moveType": "Infantry",
       "rarities": "3-4",
       "releaseDate": "2018-05-02",
-      "poolDate": "N/A",
+      "poolDate": "2018-06-08",
       "assets": {
         "portrait": {
           "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Kaze Easygoing Ninja.png",
@@ -19421,7 +19681,7 @@
       "origin": "Fire Emblem: The Blazing Blade",
       "weaponType": "Colorless Dagger",
       "moveType": "Infantry",
-      "rarities": "5",
+      "rarities": "4-5",
       "releaseDate": "2018-06-08",
       "poolDate": "2018-06-08",
       "assets": {
@@ -19444,23 +19704,23 @@
         },
         {
           "name": "The Cleaner",
-          "default": "-",
+          "default": 4,
           "rarity": "-"
         },
         {
           "name": "The Cleaner+",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": 4,
           "rarity": "-"
         },
         {
           "name": "Glimmer",
           "default": "-",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Darting Blow 1",
@@ -19468,11 +19728,11 @@
         },
         {
           "name": "Swift Strike 1",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Swift Strike 2",
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Atk Tactic 1",
@@ -19484,7 +19744,7 @@
         },
         {
           "name": "Atk Tactic 3",
-          "rarity": "-"
+          "rarity": 4
         }
       ],
       "growthPoints": {
@@ -19496,6 +19756,13 @@
       },
       "stats": {
         "1": {
+          "4": {
+            "hp": 16,
+            "atk": 7,
+            "spd": 10,
+            "def": 6,
+            "res": 3
+          },
           "5": {
             "hp": 17,
             "atk": 7,
@@ -19505,6 +19772,33 @@
           }
         },
         "40": {
+          "4": {
+            "hp": [
+              33,
+              36,
+              39
+            ],
+            "atk": [
+              26,
+              29,
+              32
+            ],
+            "spd": [
+              33,
+              36,
+              39
+            ],
+            "def": [
+              19,
+              22,
+              25
+            ],
+            "res": [
+              14,
+              17,
+              20
+            ]
+          },
           "5": {
             "hp": [
               35,
@@ -19902,7 +20196,7 @@
         },
         {
           "name": "Firestorm Dance 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Sword Valor 1",
@@ -19914,7 +20208,7 @@
         },
         {
           "name": "Sword Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -20023,7 +20317,7 @@
         },
         {
           "name": "Seal Res 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Atk Ploy 1",
@@ -20035,7 +20329,7 @@
         },
         {
           "name": "Atk Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -20106,53 +20400,53 @@
       "skills": [
         {
           "name": "Flux",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Ruin",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Fenrir",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Brynhildr",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Rising Light",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 4
         },
         {
           "name": "Blazing Light",
-          "default": "-",
+          "default": 3,
           "rarity": 5
         },
         {
           "name": "Quick Riposte 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Quick Riposte 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Quick Riposte 3",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Savage Blow 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Savage Blow 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Savage Blow 3",
@@ -20436,13 +20730,13 @@
         },
         {
           "name": "Rising Flame",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Blazing Flame",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Attack +1",
@@ -20454,7 +20748,7 @@
         },
         {
           "name": "HP/Atk 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Atk Tactic 1",
@@ -20466,7 +20760,7 @@
         },
         {
           "name": "Atk Tactic 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -20764,7 +21058,7 @@
         },
         {
           "name": "Speed +3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortify Res 1",
@@ -20776,7 +21070,7 @@
         },
         {
           "name": "Fortify Res 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -20821,6 +21115,122 @@
             "res": [
               23,
               27,
+              30
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Linde: Summer Rays",
+      "shortName": "Linde",
+      "title": "Summer Rays",
+      "origin": "Fire Emblem: Mystery of the Emblem",
+      "weaponType": "Colorless Dagger",
+      "moveType": "Cavalry",
+      "rarities": "5",
+      "releaseDate": "2018-07-10",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Linde Summer Rays.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Linde Summer Rays.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Linde Summer Rays.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Iron Dagger",
+          "default": 1,
+          "rarity": "-"
+        },
+        {
+          "name": "Steel Dagger",
+          "default": 3,
+          "rarity": 2
+        },
+        {
+          "name": "Starfish",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Starfish+",
+          "default": 5,
+          "rarity": 5
+        },
+        {
+          "name": "Ardent Sacrifice",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Brazen Atk/Res 1",
+          "rarity": 3
+        },
+        {
+          "name": "Brazen Atk/Res 2",
+          "rarity": 4
+        },
+        {
+          "name": "Brazen Atk/Res 3",
+          "rarity": 5
+        },
+        {
+          "name": "Cancel Affinity 1",
+          "rarity": 1
+        },
+        {
+          "name": "Cancel Affinity 2",
+          "rarity": 2
+        },
+        {
+          "name": "Cancel Affinity 3",
+          "rarity": 4
+        }
+      ],
+      "growthPoints": {
+        "hp": 4,
+        "atk": 8,
+        "spd": 8,
+        "def": 2,
+        "res": 5
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 16,
+            "atk": 8,
+            "spd": 9,
+            "def": 3,
+            "res": 7
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              30,
+              33,
+              36
+            ],
+            "atk": [
+              31,
+              34,
+              37
+            ],
+            "spd": [
+              32,
+              35,
+              38
+            ],
+            "def": [
+              12,
+              16,
+              19
+            ],
+            "res": [
+              23,
+              26,
               30
             ]
           }
@@ -21074,7 +21484,7 @@
         },
         {
           "name": "Bold Fighter 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortify Def 1",
@@ -21086,7 +21496,7 @@
         },
         {
           "name": "Fortify Armor",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -21810,13 +22220,13 @@
         },
         {
           "name": "Daylight",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Sol",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Aether",
@@ -21833,7 +22243,7 @@
         },
         {
           "name": "Sturdy Blow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Spd 1",
@@ -21845,7 +22255,7 @@
         },
         {
           "name": "Drive Spd 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -21959,7 +22369,7 @@
         },
         {
           "name": "Defiant Spd 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Atk 1",
@@ -21971,7 +22381,7 @@
         },
         {
           "name": "Spur Atk 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -22075,7 +22485,7 @@
         },
         {
           "name": "Swift Sparrow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Seal Res 1",
@@ -22087,7 +22497,7 @@
         },
         {
           "name": "Seal Res 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -22554,13 +22964,13 @@
         },
         {
           "name": "Glowing Ember",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Bonfire",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fire Boost 1",
@@ -22572,7 +22982,7 @@
         },
         {
           "name": "Fire Boost 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Panic Ploy 1",
@@ -22584,7 +22994,7 @@
         },
         {
           "name": "Panic Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -22693,7 +23103,7 @@
         },
         {
           "name": "HP/Res 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Res Ploy 1",
@@ -22705,7 +23115,7 @@
         },
         {
           "name": "Res Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -22796,13 +23206,13 @@
         },
         {
           "name": "Dragon Gaze",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Draconic Aura",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Death Blow 1",
@@ -22814,7 +23224,7 @@
         },
         {
           "name": "Swift Sparrow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Sacae's Blessing",
@@ -22830,7 +23240,7 @@
         },
         {
           "name": "Atk Smoke 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -22901,13 +23311,13 @@
       "skills": [
         {
           "name": "Assault",
-          "default": "-",
-          "rarity": "-"
+          "default": 1,
+          "rarity": 1
         },
         {
           "name": "Candlelight",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Candlelight+",
@@ -22916,36 +23326,36 @@
         },
         {
           "name": "Heal",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Reconcile",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Rehabilitate",
           "default": 5,
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Imbue",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 2
         },
         {
           "name": "Swift-Winds Balm",
           "default": 5,
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Dazzling Staff 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Dazzling Staff 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Dazzling Staff 3",
@@ -23040,13 +23450,13 @@
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Astra",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Galeforce",
@@ -23063,7 +23473,7 @@
         },
         {
           "name": "Defiant Atk 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Spd 1",
@@ -23075,7 +23485,7 @@
         },
         {
           "name": "Spur Spd 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -23304,7 +23714,7 @@
         },
         {
           "name": "Atk/Spd Bond 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Guard 1",
@@ -23316,7 +23726,7 @@
         },
         {
           "name": "Guard 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Armor March 1",
@@ -23328,7 +23738,7 @@
         },
         {
           "name": "Armor March 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -25203,7 +25613,7 @@
         },
         {
           "name": "Flashing Blade 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Vantage 1",
@@ -25215,7 +25625,7 @@
         },
         {
           "name": "Vantage 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -25324,7 +25734,7 @@
         },
         {
           "name": "Distant Def 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Guard 1",
@@ -25336,7 +25746,7 @@
         },
         {
           "name": "Guard 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Atk 1",
@@ -25348,7 +25758,7 @@
         },
         {
           "name": "Drive Atk 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -25620,13 +26030,13 @@
         },
         {
           "name": "Holy Vestments",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Sacred Cowl",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Life and Death 1",
@@ -25638,7 +26048,7 @@
         },
         {
           "name": "Life and Death 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Def 1",
@@ -25650,7 +26060,7 @@
         },
         {
           "name": "Ward Fliers",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -25732,7 +26142,7 @@
         {
           "name": "Slow+",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Heal",
@@ -25756,7 +26166,7 @@
         },
         {
           "name": "Miracle",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -25769,7 +26179,7 @@
         },
         {
           "name": "Spur Def/Res 2",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -25995,41 +26405,41 @@
       "skills": [
         {
           "name": "Thunder",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Elthunder",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Blárserpent",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Blárserpent+",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Chilling Wind",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Iceberg",
           "default": "-",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Warding Stance 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Mirror Stance 1",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Mirror Stance 2",
@@ -26037,23 +26447,23 @@
         },
         {
           "name": "Guard 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Guard 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Guard 3",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Atk Ploy 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Atk Ploy 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Atk Ploy 3",
@@ -26166,7 +26576,7 @@
         },
         {
           "name": "Fury 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Hone Atk 1",
@@ -26178,7 +26588,7 @@
         },
         {
           "name": "Hone Dragons",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -26845,14 +27255,19 @@
           "rarity": "-"
         },
         {
+          "name": "Dauntless Lance",
+          "default": "-",
+          "rarity": 5
+        },
+        {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Moonbow",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Speed +1",
@@ -26864,7 +27279,7 @@
         },
         {
           "name": "Atk/Spd 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Wrath 1",
@@ -26876,7 +27291,7 @@
         },
         {
           "name": "Wrath 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -27285,7 +27700,7 @@
         },
         {
           "name": "Escape Route 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Fortify Def 1",
@@ -27297,7 +27712,7 @@
         },
         {
           "name": "Fortify Dragons",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -27388,7 +27803,7 @@
         },
         {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -27666,6 +28081,122 @@
       }
     },
     {
+      "name": "Noire: Shade Seeker",
+      "shortName": "Noire",
+      "title": "Shade Seeker",
+      "origin": "Fire Emblem Awakening",
+      "weaponType": "Colorless Bow",
+      "moveType": "Infantry",
+      "rarities": "5",
+      "releaseDate": "2018-06-21",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Noire Shade Seeker.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Noire Shade Seeker.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Noire Shade Seeker.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Iron Bow",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
+          "name": "Steel Bow",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
+          "name": "Cocobow",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
+          "name": "Cocobow+",
+          "default": 5,
+          "rarity": "-"
+        },
+        {
+          "name": "Ardent Sacrifice",
+          "default": 5,
+          "rarity": "-"
+        },
+        {
+          "name": "Speed +1",
+          "rarity": "-"
+        },
+        {
+          "name": "Atk/Spd 1",
+          "rarity": "-"
+        },
+        {
+          "name": "Atk/Spd 2",
+          "rarity": "-"
+        },
+        {
+          "name": "Infantry Rush 1",
+          "rarity": "-"
+        },
+        {
+          "name": "Infantry Rush 2",
+          "rarity": "-"
+        },
+        {
+          "name": "Infantry Rush 3",
+          "rarity": "-"
+        }
+      ],
+      "growthPoints": {
+        "hp": 5,
+        "atk": 7,
+        "spd": 8,
+        "def": 6,
+        "res": 3
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 17,
+            "atk": 8,
+            "spd": 10,
+            "def": 5,
+            "res": 5
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              33,
+              36,
+              40
+            ],
+            "atk": [
+              29,
+              32,
+              35
+            ],
+            "spd": [
+              33,
+              36,
+              39
+            ],
+            "def": [
+              23,
+              27,
+              30
+            ],
+            "res": [
+              17,
+              20,
+              23
+            ]
+          }
+        }
+      }
+    },
+    {
       "name": "Nowi: Eternal Witch",
       "shortName": "Nowi",
       "title": "Eternal Witch",
@@ -27718,7 +28249,7 @@
         },
         {
           "name": "Atk/Res Bond 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Live for Bounty",
@@ -27734,7 +28265,7 @@
         },
         {
           "name": "Hone Fliers",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -29017,7 +29548,7 @@
         },
         {
           "name": "Distant Def 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Blaze Dance 1",
@@ -29029,7 +29560,7 @@
         },
         {
           "name": "Blaze Dance 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -29133,7 +29664,7 @@
         },
         {
           "name": "Warding Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Spur Res 1",
@@ -29145,7 +29676,7 @@
         },
         {
           "name": "Ward Cavalry",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -29568,7 +30099,7 @@
         },
         {
           "name": "Wings of Mercy 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Wings of Mercy 2",
@@ -31059,7 +31590,7 @@
         },
         {
           "name": "Distant Def 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Savage Blow 1",
@@ -31071,7 +31602,7 @@
         },
         {
           "name": "Savage Blow 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -31142,33 +31673,33 @@
       "skills": [
         {
           "name": "Fire Breath",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Fire Breath+",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Flametongue",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Expiration",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Glowing Ember",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Ignis",
           "default": "-",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Vengeful Fighter 1",
@@ -31184,11 +31715,11 @@
         },
         {
           "name": "Spur Def 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Spur Def 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Ward Dragons",
@@ -31283,13 +31814,13 @@
         },
         {
           "name": "Glowing Ember",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Bonfire",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Dragonskin",
@@ -31305,7 +31836,7 @@
         },
         {
           "name": "Cancel Affinity 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Res Smoke 1",
@@ -31317,7 +31848,7 @@
         },
         {
           "name": "Res Smoke 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -31421,7 +31952,7 @@
         },
         {
           "name": "Brazen Atk/Spd 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Armor March 1",
@@ -31433,7 +31964,7 @@
         },
         {
           "name": "Armor March 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -31949,7 +32480,7 @@
         },
         {
           "name": "HP/Def 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Lance Valor 1",
@@ -31961,7 +32492,7 @@
         },
         {
           "name": "Lance Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -32233,13 +32764,13 @@
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Astra",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Galeforce",
@@ -32256,7 +32787,7 @@
         },
         {
           "name": "Steady Blow 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Desperation 1",
@@ -32268,7 +32799,7 @@
         },
         {
           "name": "Desperation 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -32556,7 +33087,7 @@
         },
         {
           "name": "Death Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Bow Valor 1",
@@ -32568,7 +33099,7 @@
         },
         {
           "name": "Bow Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -32659,13 +33190,13 @@
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Astra",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Defiant Atk 1",
@@ -32677,7 +33208,7 @@
         },
         {
           "name": "Defiant Atk 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Hone Spd 1",
@@ -32689,7 +33220,7 @@
         },
         {
           "name": "Hone Spd 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -32780,7 +33311,7 @@
         },
         {
           "name": "Night Sky",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
@@ -32923,7 +33454,7 @@
         },
         {
           "name": "HP/Spd 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Shield Pulse 1",
@@ -32935,7 +33466,7 @@
         },
         {
           "name": "Shield Pulse 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -33417,7 +33948,7 @@
         },
         {
           "name": "Warding Stance 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Guard 1",
@@ -33429,7 +33960,7 @@
         },
         {
           "name": "Guard 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Dagger Valor 1",
@@ -33441,7 +33972,7 @@
         },
         {
           "name": "Dagger Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -33848,7 +34379,7 @@
         },
         {
           "name": "Triangle Adept 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Hone Atk 1",
@@ -33860,7 +34391,7 @@
         },
         {
           "name": "Hone Atk 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -35416,7 +35947,7 @@
         },
         {
           "name": "Svalinn Shield",
-          "rarity": 3
+          "rarity": 4
         },
         {
           "name": "Fortify Def 1",
@@ -35600,7 +36131,7 @@
         },
         {
           "name": "Geyser Dance 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "B Tome Valor 1",
@@ -35612,7 +36143,7 @@
         },
         {
           "name": "B Tome Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -35871,7 +36402,7 @@
         },
         {
           "name": "Steady Stance 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Def Tactic 1",
@@ -35883,7 +36414,7 @@
         },
         {
           "name": "Def Tactic 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -35992,7 +36523,7 @@
         },
         {
           "name": "Death Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Atk Tactic 1",
@@ -36004,7 +36535,7 @@
         },
         {
           "name": "Atk Tactic 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -36075,40 +36606,40 @@
       "skills": [
         {
           "name": "Iron Sword",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Steel Sword",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Silver Sword",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Divine Tyrfing",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "Miracle",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Close Def 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Close Def 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Close Def 3",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Crusader's Ward",
@@ -36116,11 +36647,11 @@
         },
         {
           "name": "Spd Smoke 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Spd Smoke 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Spd Smoke 3",
@@ -36388,7 +36919,7 @@
         },
         {
           "name": "Mirror Strike 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Res Ploy 1",
@@ -36400,7 +36931,7 @@
         },
         {
           "name": "Res Ploy 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -38124,6 +38655,127 @@
       }
     },
     {
+      "name": "Takumi: Prince at Play",
+      "shortName": "Takumi",
+      "title": "Prince at Play",
+      "origin": "Fire Emblem Fates",
+      "weaponType": "Colorless Bow",
+      "moveType": "Flying",
+      "rarities": "5",
+      "releaseDate": "2018-07-10",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Takumi Prince at Play.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Takumi Prince at Play.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Takumi Prince at Play.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Iron Bow",
+          "default": 1,
+          "rarity": "-"
+        },
+        {
+          "name": "Steel Bow",
+          "default": 3,
+          "rarity": 2
+        },
+        {
+          "name": "Fishie Bow",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Fishie Bow+",
+          "default": 5,
+          "rarity": 5
+        },
+        {
+          "name": "Night Sky",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Glimmer",
+          "default": "-",
+          "rarity": 4
+        },
+        {
+          "name": "Fury 1",
+          "rarity": 1
+        },
+        {
+          "name": "Fury 2",
+          "rarity": 2
+        },
+        {
+          "name": "Fury 3",
+          "rarity": 4
+        },
+        {
+          "name": "Odd Res Wave 1",
+          "rarity": 3
+        },
+        {
+          "name": "Odd Res Wave 2",
+          "rarity": 4
+        },
+        {
+          "name": "Odd Res Wave 3",
+          "rarity": 5
+        }
+      ],
+      "growthPoints": {
+        "hp": 6,
+        "atk": 8,
+        "spd": 9,
+        "def": 3,
+        "res": 3
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 18,
+            "atk": 9,
+            "spd": 7,
+            "def": 6,
+            "res": 4
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              36,
+              40,
+              43
+            ],
+            "atk": [
+              32,
+              35,
+              38
+            ],
+            "spd": [
+              32,
+              35,
+              38
+            ],
+            "def": [
+              18,
+              21,
+              24
+            ],
+            "res": [
+              16,
+              19,
+              22
+            ]
+          }
+        }
+      }
+    },
+    {
       "name": "Takumi: Prince of Soup",
       "shortName": "Takumi",
       "title": "Prince of Soup",
@@ -38181,7 +38833,7 @@
         },
         {
           "name": "Atk/Res Bond 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Bowbreaker 1",
@@ -38193,7 +38845,7 @@
         },
         {
           "name": "Bowbreaker 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -38306,7 +38958,7 @@
         },
         {
           "name": "Threaten Spd 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -38392,6 +39044,139 @@
       }
     },
     {
+      "name": "Tana: Noble and Nimble",
+      "shortName": "Tana",
+      "title": "Noble and Nimble",
+      "origin": "Fire Emblem: The Sacred Stones",
+      "weaponType": "Red Tome",
+      "moveType": "Flying",
+      "rarities": "5",
+      "releaseDate": "2018-06-21",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Tana Noble and Nimble.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Tana Noble and Nimble.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Tana Noble and Nimble.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Fire",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
+          "name": "Elfire",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
+          "name": "Bolganone",
+          "default": "-",
+          "rarity": "-"
+        },
+        {
+          "name": "Fruit of Iðunn",
+          "default": 5,
+          "rarity": "-"
+        },
+        {
+          "name": "Rally Speed",
+          "default": 5,
+          "rarity": "-"
+        },
+        {
+          "name": "Rally Spd/Res",
+          "default": "-",
+          "rarity": 5
+        },
+        {
+          "name": "Atk/Spd Push 1",
+          "rarity": "-"
+        },
+        {
+          "name": "Atk/Spd Push 2",
+          "rarity": "-"
+        },
+        {
+          "name": "Atk/Spd Push 3",
+          "rarity": "-"
+        },
+        {
+          "name": "Renewal 1",
+          "rarity": "-"
+        },
+        {
+          "name": "Renewal 2",
+          "rarity": "-"
+        },
+        {
+          "name": "Renewal 3",
+          "rarity": "-"
+        },
+        {
+          "name": "Spur Def 1",
+          "rarity": "-"
+        },
+        {
+          "name": "Spur Atk/Def 1",
+          "rarity": "-"
+        },
+        {
+          "name": "Spur Atk/Def 2",
+          "rarity": "-"
+        }
+      ],
+      "growthPoints": {
+        "hp": 5,
+        "atk": 8,
+        "spd": 8,
+        "def": 3,
+        "res": 5
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 16,
+            "atk": 7,
+            "spd": 10,
+            "def": 5,
+            "res": 6
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              32,
+              35,
+              39
+            ],
+            "atk": [
+              30,
+              33,
+              36
+            ],
+            "spd": [
+              33,
+              36,
+              39
+            ],
+            "def": [
+              17,
+              20,
+              23
+            ],
+            "res": [
+              22,
+              25,
+              29
+            ]
+          }
+        }
+      }
+    },
+    {
       "name": "Tana: Winged Princess",
       "shortName": "Tana",
       "title": "Winged Princess",
@@ -38431,13 +39216,13 @@
         },
         {
           "name": "New Moon",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Moonbow",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Speed +1",
@@ -38449,7 +39234,7 @@
         },
         {
           "name": "Spd/Def 2",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Guidance 1",
@@ -38461,7 +39246,7 @@
         },
         {
           "name": "Guidance 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -38574,7 +39359,7 @@
         },
         {
           "name": "Vengeful Fighter 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "R Tome Valor 1",
@@ -38586,7 +39371,7 @@
         },
         {
           "name": "R Tome Valor 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -38948,6 +39733,131 @@
       }
     },
     {
+      "name": "Tiki: Beachside Scion",
+      "shortName": "Tiki",
+      "title": "Beachside Scion",
+      "origin": "Fire Emblem: Mystery of the Emblem",
+      "weaponType": "Red Breath",
+      "moveType": "Flying",
+      "rarities": "5",
+      "releaseDate": "2018-07-10",
+      "poolDate": "N/A",
+      "assets": {
+        "portrait": {
+          "75px": "https://proving-grounds-static.ajhyndman.com/75px-Icon_Portrait_Tiki Beachside Scion.png",
+          "113px": "https://proving-grounds-static.ajhyndman.com/113px-Icon_Portrait_Tiki Beachside Scion.png",
+          "150px": "https://proving-grounds-static.ajhyndman.com/150px-Icon_Portrait_Tiki Beachside Scion.png"
+        }
+      },
+      "skills": [
+        {
+          "name": "Fire Breath",
+          "default": 1,
+          "rarity": "-"
+        },
+        {
+          "name": "Fire Breath+",
+          "default": 3,
+          "rarity": 2
+        },
+        {
+          "name": "Flametongue",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Summer's Breath",
+          "default": 5,
+          "rarity": 5
+        },
+        {
+          "name": "New Moon",
+          "default": 4,
+          "rarity": 3
+        },
+        {
+          "name": "Moonbow",
+          "default": "-",
+          "rarity": 4
+        },
+        {
+          "name": "Atk/Def Bond 1",
+          "rarity": 3
+        },
+        {
+          "name": "Atk/Def Bond 2",
+          "rarity": 4
+        },
+        {
+          "name": "Atk/Def Bond 3",
+          "rarity": 5
+        },
+        {
+          "name": "Hit and Run",
+          "rarity": 3
+        },
+        {
+          "name": "Dragon Valor 1",
+          "rarity": 3
+        },
+        {
+          "name": "Dragon Valor 2",
+          "rarity": 4
+        },
+        {
+          "name": "Dragon Valor 3",
+          "rarity": 5
+        }
+      ],
+      "growthPoints": {
+        "hp": 7,
+        "atk": 8,
+        "spd": 11,
+        "def": 7,
+        "res": 6
+      },
+      "stats": {
+        "1": {
+          "5": {
+            "hp": 16,
+            "atk": 7,
+            "spd": 4,
+            "def": 8,
+            "res": 4
+          }
+        },
+        "40": {
+          "5": {
+            "hp": [
+              37,
+              40,
+              43
+            ],
+            "atk": [
+              30,
+              33,
+              36
+            ],
+            "spd": [
+              33,
+              37,
+              40
+            ],
+            "def": [
+              29,
+              32,
+              35
+            ],
+            "res": [
+              22,
+              26,
+              29
+            ]
+          }
+        }
+      }
+    },
+    {
       "name": "Tiki: Dragon Scion",
       "shortName": "Tiki",
       "title": "Dragon Scion",
@@ -38992,13 +39902,13 @@
         },
         {
           "name": "Rising Flame",
-          "default": 5,
+          "default": "-",
           "rarity": "-"
         },
         {
           "name": "Growing Flame",
           "default": "-",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Armored Blow 1",
@@ -39010,7 +39920,7 @@
         },
         {
           "name": "Armored Blow 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Breath of Life 1",
@@ -39022,7 +39932,7 @@
         },
         {
           "name": "Breath of Life 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -39424,6 +40334,11 @@
         {
           "name": "Emerald Axe+",
           "default": 5,
+          "rarity": 5
+        },
+        {
+          "name": "Draconic Poleax",
+          "default": "-",
           "rarity": 5
         },
         {
@@ -40858,7 +41773,7 @@
         },
         {
           "name": "Fortify Def 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -40967,7 +41882,7 @@
         },
         {
           "name": "Fire Boost 3",
-          "rarity": 5
+          "rarity": "-"
         },
         {
           "name": "Infantry Pulse 1",
@@ -40979,7 +41894,7 @@
         },
         {
           "name": "Infantry Pulse 3",
-          "rarity": 5
+          "rarity": "-"
         }
       ],
       "growthPoints": {
@@ -41050,33 +41965,33 @@
       "skills": [
         {
           "name": "Iron Sword",
-          "default": "-",
+          "default": 1,
           "rarity": "-"
         },
         {
           "name": "Steel Sword",
-          "default": "-",
-          "rarity": "-"
+          "default": 3,
+          "rarity": 2
         },
         {
           "name": "Silver Sword",
-          "default": "-",
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Alondite",
           "default": 5,
-          "rarity": "-"
+          "rarity": 5
         },
         {
           "name": "New Moon",
-          "default": 5,
-          "rarity": "-"
+          "default": 4,
+          "rarity": 3
         },
         {
           "name": "Luna",
           "default": "-",
-          "rarity": 5
+          "rarity": 4
         },
         {
           "name": "Black Luna",
@@ -41085,11 +42000,11 @@
         },
         {
           "name": "Fierce Stance 1",
-          "rarity": "-"
+          "rarity": 3
         },
         {
           "name": "Fierce Stance 2",
-          "rarity": "-"
+          "rarity": 4
         },
         {
           "name": "Fierce Stance 3",
@@ -41101,15 +42016,15 @@
         },
         {
           "name": "Panic Ploy 1",
-          "rarity": "-"
+          "rarity": 1
         },
         {
           "name": "Panic Ploy 2",
-          "rarity": "-"
+          "rarity": 2
         },
         {
           "name": "Panic Ploy 3",
-          "rarity": 5
+          "rarity": 4
         }
       ],
       "growthPoints": {
@@ -41562,12 +42477,34 @@
     },
     {
       "name": "Basilikos",
-      "skillTier": null,
+      "skillTier": 4,
       "spCost": 400,
       "damage(mt)": 16,
       "range(rng)": 1,
       "effect": "Accelerates Special trigger (cooldown count-1).",
       "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Green Axe"
+    },
+    {
+      "name": "Beach Banner",
+      "skillTier": 3,
+      "spCost": 200,
+      "damage(mt)": 10,
+      "range(rng)": 1,
+      "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Green Axe"
+    },
+    {
+      "name": "Beach Banner+",
+      "skillTier": 4,
+      "spCost": 300,
+      "damage(mt)": 14,
+      "range(rng)": 1,
+      "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+      "exclusive": false,
       "type": "WEAPON",
       "weaponType": "Green Axe"
     },
@@ -42122,6 +43059,28 @@
       "weaponType": "Bow"
     },
     {
+      "name": "Cocobow",
+      "skillTier": 3,
+      "spCost": 200,
+      "damage(mt)": 8,
+      "range(rng)": 2,
+      "effect": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Cocobow+",
+      "skillTier": 4,
+      "spCost": 300,
+      "damage(mt)": 12,
+      "range(rng)": 2,
+      "effect": "Effective against flying foes. If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Bow"
+    },
+    {
       "name": "Cupid Arrow",
       "skillTier": 3,
       "spCost": 200,
@@ -42298,6 +43257,17 @@
       "weaponType": "Red Sword"
     },
     {
+      "name": "Dauntless Lance",
+      "skillTier": 4,
+      "spCost": 400,
+      "damage(mt)": 16,
+      "range(rng)": 1,
+      "effect": "Accelerates Special trigger (cooldown count-1). Effective against armored foes.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Blue Lance"
+    },
+    {
       "name": "Deathly Dagger",
       "skillTier": 4,
       "spCost": 400,
@@ -42362,6 +43332,17 @@
       "exclusive": true,
       "type": "WEAPON",
       "weaponType": "Red Sword"
+    },
+    {
+      "name": "Draconic Poleax",
+      "skillTier": 4,
+      "spCost": 400,
+      "damage(mt)": 16,
+      "range(rng)": 1,
+      "effect": "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Green Axe"
     },
     {
       "name": "Durandal",
@@ -42479,7 +43460,7 @@
       "spCost": 400,
       "damage(mt)": 16,
       "range(rng)": 1,
-      "effect": "Effective against dragon foes.  At the start of every third turn, restores 10 HP.",
+      "effect": "Effective against dragon foes. At the start of every third turn, restores 10 HP.",
       "exclusive": true,
       "type": "WEAPON",
       "weaponType": "Red Sword"
@@ -42672,6 +43653,28 @@
       "weaponType": "Blue Lance"
     },
     {
+      "name": "Fishie Bow",
+      "skillTier": 3,
+      "spCost": 200,
+      "damage(mt)": 10,
+      "range(rng)": 2,
+      "effect": "Effective against flying foes. If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Bow"
+    },
+    {
+      "name": "Fishie Bow+",
+      "skillTier": 4,
+      "spCost": 300,
+      "damage(mt)": 12,
+      "range(rng)": 2,
+      "effect": "Effective against flying foes. If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Bow"
+    },
+    {
       "name": "Flame Siegmund",
       "skillTier": 4,
       "spCost": 400,
@@ -42751,7 +43754,7 @@
     {
       "name": "Fruit of Iðunn",
       "skillTier": 4,
-      "spCost": null,
+      "spCost": 400,
       "damage(mt)": 14,
       "range(rng)": 2,
       "effect": "Grants Spd+3. If unit's HP ≥ 50%, allies within 2 spaces can move to a space adjacent to unit.",
@@ -43332,6 +44335,28 @@
       "weaponType": "Blue Tome"
     },
     {
+      "name": "Juicy Wave",
+      "skillTier": 3,
+      "spCost": 200,
+      "damage(mt)": 10,
+      "range(rng)": 2,
+      "effect": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Blue Tome"
+    },
+    {
+      "name": "Juicy Wave+",
+      "skillTier": 4,
+      "spCost": 300,
+      "damage(mt)": 12,
+      "range(rng)": 2,
+      "effect": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Blue Tome"
+    },
+    {
       "name": "Kadomatsu",
       "skillTier": 3,
       "spCost": 200,
@@ -43843,7 +44868,7 @@
       "spCost": 400,
       "damage(mt)": 14,
       "range(rng)": 2,
-      "effect": "Grants weapon-triangle advantage against colorless foes.",
+      "effect": "Grants weapon-triangle advantage against colorless foes, and inflicts weapon-triangle disadvantage on colorless foes during combat.",
       "exclusive": true,
       "type": "WEAPON",
       "weaponType": "Red Tome"
@@ -44135,6 +45160,17 @@
       "weaponType": "Red Tome"
     },
     {
+      "name": "Reese's Tome",
+      "skillTier": 4,
+      "spCost": 400,
+      "damage(mt)": 14,
+      "range(rng)": 2,
+      "effect": "During combat, boosts unit's Atk/Spd/Def/Res by number of adjacent allies × 2.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Red Tome"
+    },
+    {
       "name": "Refreshing Bolt",
       "skillTier": 3,
       "spCost": 200,
@@ -44408,6 +45444,28 @@
       "exclusive": false,
       "type": "WEAPON",
       "weaponType": "Colorless Dagger"
+    },
+    {
+      "name": "Shell Lance",
+      "skillTier": 3,
+      "spCost": 200,
+      "damage(mt)": 10,
+      "range(rng)": 1,
+      "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Blue Lance"
+    },
+    {
+      "name": "Shell Lance+",
+      "skillTier": 4,
+      "spCost": 300,
+      "damage(mt)": 14,
+      "range(rng)": 1,
+      "effect": "If unit initiates combat, grants Atk/Spd/Def/Res+2 during combat.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Blue Lance"
     },
     {
       "name": "Shine",
@@ -44806,6 +45864,28 @@
       "weaponType": "Green Tome"
     },
     {
+      "name": "Starfish",
+      "skillTier": 3,
+      "spCost": 200,
+      "damage(mt)": 10,
+      "range(rng)": 2,
+      "effect": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Colorless Dagger"
+    },
+    {
+      "name": "Starfish+",
+      "skillTier": 4,
+      "spCost": 300,
+      "damage(mt)": 12,
+      "range(rng)": 2,
+      "effect": "If unit’s HP ≤ 75% and unit initiates combat, unit can make a follow-up attack before foe can counterattack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions.",
+      "exclusive": false,
+      "type": "WEAPON",
+      "weaponType": "Colorless Dagger"
+    },
+    {
       "name": "Steel Axe",
       "skillTier": 2,
       "spCost": 100,
@@ -44870,6 +45950,17 @@
       "exclusive": true,
       "type": "WEAPON",
       "weaponType": "Green Axe"
+    },
+    {
+      "name": "Summer's Breath",
+      "skillTier": 4,
+      "spCost": 400,
+      "damage(mt)": 16,
+      "range(rng)": 1,
+      "effect": "Effective against dragon foes. Grants Def+3. If foe initiates combat, grants Special cooldown charge +1 per attack during combat. (Only highest value applied. Does not stack.) If foe's Range = 2, calculates damage using the lower of foe's Def or Res.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Breath"
     },
     {
       "name": "Swift Mulagir",
@@ -44969,6 +46060,17 @@
       "exclusive": false,
       "type": "WEAPON",
       "weaponType": "Blue Tome"
+    },
+    {
+      "name": "Thunder Armads",
+      "skillTier": 4,
+      "spCost": 400,
+      "damage(mt)": 16,
+      "range(rng)": 1,
+      "effect": "Grants Def+3. If the number of allies within 2 spaces (excluding unit) > the number of foes within 2 spaces (excluding target), foe cannot make a follow-up attack.",
+      "exclusive": true,
+      "type": "WEAPON",
+      "weaponType": "Green Axe"
     },
     {
       "name": "Thunderhead",
@@ -45337,7 +46439,7 @@
     {
       "name": "Martyr",
       "range": 1,
-      "effect": "Slows Special trigger (cooldown count+1). Restores X HP to target (X - damage dealt to unit + 7). Restores Y HP to unit (Y = half damage dealt to unit).",
+      "effect": "Slows Special trigger (cooldown count+1). Restores X HP to target (X = damage dealt to unit + 7). Restores Y HP to unit (Y = half damage dealt to unit).",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 200,
@@ -46877,57 +47979,65 @@
       "type": "SPECIAL"
     },
     {
-      "name": "Distant Def 3",
-      "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.",
+      "name": "Atk/Spd Push 1",
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+3, but if unit attacked, deals 1 damage to unit after combat.",
       "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
+      "skillTier": 1,
+      "spCost": 0,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
         ""
       ],
-      "type": "PASSIVE_A"
+      "type": "PASSIVE_"
     },
     {
-      "name": "HP/Def 2",
-      "effect": "Grants HP+4, Def+2.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_A"
-    },
-    {
-      "name": "Armored Blow 2",
-      "effect": "If unit initiates combat, grants Def+4 during combat.",
+      "name": "Atk/Spd Push 2",
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+4, but if unit attacked, deals 1 damage to unit after combat.",
       "exclusive": false,
       "skillTier": 2,
-      "spCost": 100,
+      "spCost": 0,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        "Colorless Staff"
+        ""
       ],
-      "type": "PASSIVE_A"
+      "type": "PASSIVE_"
     },
     {
-      "name": "Armored Blow 3",
-      "effect": "If unit initiates combat, grants Def+6 during combat.",
+      "name": "Atk/Spd Push 3",
+      "effect": "At start of combat, if unit's HP = 100%, grants Atk/Spd+5, but if unit attacked, deals 1 damage to unit after combat.",
       "exclusive": false,
       "skillTier": 3,
-      "spCost": 200,
+      "spCost": 0,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_"
+    },
+    {
+      "name": "Distant Counter",
+      "effect": "Unit can counterattack regardless of foe's range.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 300,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
         "Colorless Staff"
       ],
       "type": "PASSIVE_A"
@@ -47153,6 +48263,48 @@
       ],
       "weaponRestriction": [
         ""
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "HP/Def 1",
+      "effect": "Grants HP+3, Def+1.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 100,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Armored Blow 2",
+      "effect": "If unit initiates combat, grants Def+4 during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 100,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Armored Blow 3",
+      "effect": "If unit initiates combat, grants Def+6 during combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 200,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
       ],
       "type": "PASSIVE_A"
     },
@@ -47420,6 +48572,48 @@
     {
       "name": "Brazen Atk/Def 3",
       "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Def+7 during combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Brazen Atk/Res 1",
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+3 during combat.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Brazen Atk/Res 2",
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+5 during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Brazen Atk/Res 3",
+      "effect": "At start of combat, if unit's HP ≤ 80%, grants Atk/Res+7 during combat.",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
@@ -47979,23 +49173,15 @@
       "type": "PASSIVE_A"
     },
     {
-      "name": "Distant Counter",
-      "effect": "Unit can counterattack regardless of foe's range.",
+      "name": "Armored Blow 1",
+      "effect": "If unit initiates combat, grants Def+2 during combat.",
       "exclusive": false,
       "skillTier": 1,
-      "spCost": 300,
+      "spCost": 50,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
         "Colorless Staff"
       ],
       "type": "PASSIVE_A"
@@ -48029,25 +49215,11 @@
       "type": "PASSIVE_A"
     },
     {
-      "name": "Armored Blow 1",
-      "effect": "If unit initiates combat, grants Def+2 during combat.",
+      "name": "Distant Def 3",
+      "effect": "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+6 during combat.",
       "exclusive": false,
-      "skillTier": 1,
-      "spCost": 50,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_A"
-    },
-    {
-      "name": "Dragonskin",
-      "effect": "Neutralizes \"effective against flying\" bonuses. If foe initiates combat, grants Def/Res+4 during combat.",
-      "exclusive": true,
-      "skillTier": 1,
-      "spCost": 300,
+      "skillTier": 3,
+      "spCost": 240,
       "movementRestriction": [
         ""
       ],
@@ -48081,6 +49253,20 @@
       ],
       "weaponRestriction": [
         "Colorless Staff"
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Dragonskin",
+      "effect": "Neutralizes \"effective against flying\" bonuses. If foe initiates combat, grants Def/Res+4 during combat.",
+      "exclusive": true,
+      "skillTier": 1,
+      "spCost": 300,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
       ],
       "type": "PASSIVE_A"
     },
@@ -48157,6 +49343,48 @@
       "type": "PASSIVE_A"
     },
     {
+      "name": "Sturdy Stance 2",
+      "effect": "If foe initiates combat, grants Atk/Def+4 during combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Sturdy Stance 1",
+      "effect": "If foe initiates combat, grants Atk/Def+2 during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Sturdy Blow 2",
+      "effect": "If unit initiates combat, grants Atk/Def+4 during combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
       "name": "Earth Boost 1",
       "effect": "At start of combat, if unit's HP ≥ foe's HP+3, grants Def+2 during combat.",
       "exclusive": false,
@@ -48199,22 +49427,8 @@
       "type": "PASSIVE_A"
     },
     {
-      "name": "Sturdy Stance 2",
-      "effect": "If foe initiates combat, grants Atk/Def+4 during combat.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_A"
-    },
-    {
-      "name": "Sturdy Stance 1",
-      "effect": "If foe initiates combat, grants Atk/Def+2 during combat.",
+      "name": "Sturdy Blow 1",
+      "effect": "If unit initiates combat, grants Atk/Def+2 during combat.",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 120,
@@ -48227,16 +49441,30 @@
       "type": "PASSIVE_A"
     },
     {
-      "name": "Sturdy Blow 2",
-      "effect": "If unit initiates combat, grants Atk/Def+4 during combat.",
+      "name": "Steady Stance 3",
+      "effect": "If foe initiates combat, grants Def+6 during combat.",
       "exclusive": false,
       "skillTier": 3,
-      "spCost": 240,
+      "spCost": 200,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        "Colorless Staff"
+        ""
+      ],
+      "type": "PASSIVE_A"
+    },
+    {
+      "name": "Steady Stance 2",
+      "effect": "If foe initiates combat, grants Def+4 during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 100,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
       ],
       "type": "PASSIVE_A"
     },
@@ -48366,48 +49594,6 @@
       ],
       "weaponRestriction": [
         "Colorless Staff"
-      ],
-      "type": "PASSIVE_A"
-    },
-    {
-      "name": "Sturdy Blow 1",
-      "effect": "If unit initiates combat, grants Atk/Def+2 during combat.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_A"
-    },
-    {
-      "name": "Steady Stance 3",
-      "effect": "If foe initiates combat, grants Def+6 during combat.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_A"
-    },
-    {
-      "name": "Steady Stance 2",
-      "effect": "If foe initiates combat, grants Def+4 during combat.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 100,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
       ],
       "type": "PASSIVE_A"
     },
@@ -48731,11 +49917,11 @@
       "type": "PASSIVE_A"
     },
     {
-      "name": "HP/Def 1",
-      "effect": "Grants HP+3, Def+1.",
+      "name": "HP/Def 2",
+      "effect": "Grants HP+4, Def+2.",
       "exclusive": false,
-      "skillTier": 2,
-      "spCost": 100,
+      "skillTier": 3,
+      "spCost": 200,
       "movementRestriction": [
         ""
       ],
@@ -49223,43 +50409,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Wrath 2",
-      "effect": "At start of turn, if unit's HP ≤ 50% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Watersweep 3",
-      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Watersweep 2",
       "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+3 and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
       "exclusive": false,
@@ -49270,6 +50419,51 @@
       ],
       "weaponRestriction": [
         "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Watersweep 1",
+      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+5 and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wings of Mercy 1",
+      "effect": "If an ally's HP ≤ 30%, unit can move to a space adjacent to that ally.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Axebreaker 1",
+      "effect": "If unit's HP ≥ 90% in combat against an axe foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 50,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Blue Breath"
       ],
       "type": "PASSIVE_B"
     },
@@ -49296,20 +50490,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Watersweep 1",
-      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+5 and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Swordbreaker 1",
       "effect": "If unit's HP ≥ 90% in combat against a sword foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "exclusive": false,
@@ -49323,46 +50503,6 @@
         "Green Bow",
         "Green Tome",
         "Green Breath"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Wrath 1",
-      "effect": "At start of turn, if unit's HP ≤ 25% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Axebreaker 1",
-      "effect": "If unit's HP ≥ 90% in combat against an axe foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 50,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Blue Lance",
-        "Blue Bow",
-        "Blue Tome",
-        "Blue Breath"
       ],
       "type": "PASSIVE_B"
     },
@@ -49397,6 +50537,50 @@
         "Blue Bow",
         "Blue Tome",
         "Blue Breath"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Windsweep 3",
+      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd and foe uses sword, lance, axe, bow, or dagger, foe cannot counterattack.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Windsweep 2",
+      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+3 and foe uses sword, lance, axe, bow, or dagger, foe cannot counterattack.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wary Fighter 3",
+      "effect": "If unit's HP ≥ 50%, unit and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        "Infantry",
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        ""
       ],
       "type": "PASSIVE_B"
     },
@@ -49438,90 +50622,6 @@
       "exclusive": true,
       "skillTier": 1,
       "spCost": 300,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Dull Close 1",
-      "effect": "At start of combat, if unit's HP ≥ 100% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Dull Close 2",
-      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Dull Close 3",
-      "effect": "If foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Dull Ranged 1",
-      "effect": "At start of combat, if unit's HP ≥ 100% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Dull Ranged 2",
-      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Dull Ranged 3",
-      "effect": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
       "movementRestriction": [
         ""
       ],
@@ -49587,6 +50687,156 @@
         "Green Bow",
         "Green Tome",
         "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Dull Close 1",
+      "effect": "At start of combat, if unit's HP = 100% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Dull Close 2",
+      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Dull Close 3",
+      "effect": "If foe uses sword, lance, axe, or dragonstone, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Dull Ranged 1",
+      "effect": "At start of combat, if unit's HP = 100% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Dull Ranged 2",
+      "effect": "At start of combat, if unit's HP ≥ 50% and foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Dull Ranged 3",
+      "effect": "If foe uses bow, dagger, magic, or staff, neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Chill Atk 1",
+      "effect": "At the start of each turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Chill Atk 2",
+      "effect": "At the start of each turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Chill Atk 3",
+      "effect": "At the start of each turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
       ],
       "type": "PASSIVE_B"
     },
@@ -49663,48 +50913,6 @@
     {
       "name": "Escape Route 3",
       "effect": "If unit’s HP ≤ 50%, unit can move to a space adjacent to any ally.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Chill Atk 1",
-      "effect": "At the start of each turn, inflicts Atk-3 on foe on the enemy team with the highest Atk through its next action.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Chill Atk 2",
-      "effect": "At the start of each turn, inflicts Atk-5 on foe on the enemy team with the highest Atk through its next action.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Chill Atk 3",
-      "effect": "At the start of each turn, inflicts Atk-7 on foe on the enemy team with the highest Atk through its next action.",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
@@ -49801,34 +51009,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Firestorm Dance 1",
-      "effect": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Firestorm Dance 2",
-      "effect": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Chill Spd 1",
       "effect": "At start of turn, inflicts Spd-3 on foe on the enemy team with the highest Spd through its next action.",
       "exclusive": false,
@@ -49864,6 +51044,80 @@
       "spCost": 240,
       "movementRestriction": [
         ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Firestorm Dance 1",
+      "effect": "If Sing or Dance is used, grants Atk/Spd+2 to target.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Firestorm Dance 2",
+      "effect": "If Sing or Dance is used, grants Atk/Spd+3 to target.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Chilling Seal",
+      "effect": "At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
+      "exclusive": true,
+      "skillTier": 1,
+      "spCost": 300,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wary Fighter 2",
+      "effect": "If unit's HP ≥ 70%, unit and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        "Infantry",
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wary Fighter 1",
+      "effect": "If unit's HP ≥ 90%, unit and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        "Infantry",
+        "Cavalry",
+        "Flying"
       ],
       "weaponRestriction": [
         ""
@@ -49919,8 +51173,8 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Chilling Seal",
-      "effect": "At start of turn, if unit's HP ≥ 50%, inflicts Atk/Spd-6 on foe on the enemy team with the lowest Def through its next action. (Skill cannot be inherited.)",
+      "name": "Warp Powder",
+      "effect": "If unit's HP ≥ 80%, unit can move to a space adjacent to any ally within 2 spaces.",
       "exclusive": true,
       "skillTier": 1,
       "spCost": 300,
@@ -49933,25 +51187,28 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Wings of Mercy 3",
-      "effect": "If an ally's HP ≤ 50%, unit can move to a space adjacent to that ally.",
+      "name": "B Tomebreaker 1",
+      "effect": "If unit's HP ≥ 90% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
+      "skillTier": 1,
+      "spCost": 50,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        ""
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Red Breath"
       ],
       "type": "PASSIVE_B"
     },
     {
-      "name": "Wings of Mercy 2",
-      "effect": "If an ally's HP ≤ 40%, unit can move to a space adjacent to that ally.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
+      "name": "Crusader's Ward",
+      "effect": "If unit receives consecutive attacks and foe's Range = 2, reduces damage from foe's second attack onward by 80%. (Skill cannot be inherited.)",
+      "exclusive": true,
+      "skillTier": 1,
+      "spCost": 300,
       "movementRestriction": [
         ""
       ],
@@ -49966,52 +51223,6 @@
       "exclusive": true,
       "skillTier": 1,
       "spCost": 200,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Wary Fighter 3",
-      "effect": "If unit's HP ≥ 50%, unit and foe cannot make a follow-up attack.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        "Infantry",
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Wary Fighter 2",
-      "effect": "If unit's HP ≥ 70%, unit and foe cannot make a follow-up attack.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        "Infantry",
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Crusader's Ward",
-      "effect": "If unit receives consecutive attacks and foe's Range = 2, reduces damage from foe's second attack onward by 80%. (Skill cannot be inherited.)",
-      "exclusive": true,
-      "skillTier": 1,
-      "spCost": 300,
       "movementRestriction": [
         ""
       ],
@@ -50107,53 +51318,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Wary Fighter 1",
-      "effect": "If unit's HP ≥ 90%, unit and foe cannot make a follow-up attack.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        "Infantry",
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Warp Powder",
-      "effect": "If unit's HP ≥ 80%, unit can move to a space adjacent to any ally within 2 spaces.",
-      "exclusive": true,
-      "skillTier": 1,
-      "spCost": 300,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "B Tomebreaker 1",
-      "effect": "If unit's HP ≥ 90% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 50,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Red Sword",
-        "Red Bow",
-        "Red Tome",
-        "Red Breath"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "B Tomebreaker 2",
       "effect": "If unit's HP ≥ 70% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "exclusive": false,
@@ -50167,6 +51331,51 @@
         "Red Bow",
         "Red Tome",
         "Red Breath"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "B Tomebreaker 3",
+      "effect": "If unit's HP ≥ 50% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 200,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Red Breath"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Beorc's Blessing",
+      "effect": "Neutralizes cavalry and flying foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Skill cannot be inherited.)",
+      "exclusive": true,
+      "skillTier": 1,
+      "spCost": 300,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Blaze Dance 1",
+      "effect": "If Sing or Dance is used, grants Atk+2 to target.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 50,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -50292,19 +51501,16 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "B Tomebreaker 3",
-      "effect": "If unit's HP ≥ 50% in combat against a blue tome foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "name": "Blaze Dance 2",
+      "effect": "If Sing or Dance is used, grants Atk+3 to target.",
       "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
+      "skillTier": 2,
+      "spCost": 100,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        "Red Sword",
-        "Red Bow",
-        "Red Tome",
-        "Red Breath"
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -50351,16 +51557,16 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Beorc's Blessing",
-      "effect": "Neutralizes cavalry and flying foe's bonuses (from skills like Fortify, Rally, etc.) during combat. (Skill cannot be inherited.)",
-      "exclusive": true,
-      "skillTier": 1,
-      "spCost": 300,
+      "name": "Blaze Dance 3",
+      "effect": "If Sing or Dance is used, grants Atk+4 to target.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 200,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        ""
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -50471,120 +51677,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Blaze Dance 1",
-      "effect": "If Sing or Dance is used, grants Atk+2 to target.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 50,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Blaze Dance 2",
-      "effect": "If Sing or Dance is used, grants Atk+3 to target.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 100,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Blaze Dance 3",
-      "effect": "If Sing or Dance is used, grants Atk+4 to target.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Def Feint 1",
-      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-3 on foes in cardinal directions of unit through their next actions.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Def Feint 2",
-      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-5 on foes in cardinal directions of unit through their next actions.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Aerobatics 2",
-      "effect": "If unit's HP ≥ 50%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        "Infantry",
-        "Armored",
-        "Cavalry"
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Def Feint 3",
-      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-7 on foes in cardinal directions of unit through their next actions.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Vantage 1",
-      "effect": "If unit’s HP ≤ 25% and foe initiates combat, unit can counterattack before foe’s first attack.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 50,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Bold Fighter 1",
       "effect": "If unit's HP = 100% and unit initiates combat, unit makes a guaranteed follow-up attack. Grants Special cooldown charge +1 per attack. (Does not stack.)",
       "exclusive": false,
@@ -50629,6 +51721,143 @@
       ],
       "weaponRestriction": [
         ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Def Feint 1",
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-3 on foes in cardinal directions of unit through their next actions.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Aerobatics 2",
+      "effect": "If unit's HP ≥ 50%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        "Infantry",
+        "Armored",
+        "Cavalry"
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Def Feint 2",
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-5 on foes in cardinal directions of unit through their next actions.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Def Feint 3",
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Def-7 on foes in cardinal directions of unit through their next actions.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Vantage 1",
+      "effect": "If unit’s HP ≤ 25% and foe initiates combat, unit can counterattack before foe’s first attack.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 50,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Windsweep 1",
+      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+5 and foe uses sword, lance, axe, bow, or dagger, foe cannot counterattack.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wrathful Staff 1",
+      "effect": "At start of combat, if unit's HP = 100%, calculates damage from staff like other weapons.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Red Breath",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Blue Breath",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Green Breath",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Breath"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wrath 3",
+      "effect": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -50824,13 +52053,15 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Wings of Mercy 1",
-      "effect": "If an ally's HP ≤ 30%, unit can move to a space adjacent to that ally.",
+      "name": "Aerobatics 1",
+      "effect": "If unit's HP = 100%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 60,
       "movementRestriction": [
-        ""
+        "Infantry",
+        "Armored",
+        "Cavalry"
       ],
       "weaponRestriction": [
         ""
@@ -50838,22 +52069,24 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Windsweep 3",
-      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd and foe uses sword, lance, axe, bow, or dagger, foe cannot counterattack.",
+      "name": "Aerobatics 3",
+      "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
       "movementRestriction": [
-        ""
+        "Infantry",
+        "Armored",
+        "Cavalry"
       ],
       "weaponRestriction": [
-        "Colorless Staff"
+        ""
       ],
       "type": "PASSIVE_B"
     },
     {
-      "name": "Windsweep 2",
-      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+3 and foe uses sword, lance, axe, bow, or dagger, foe cannot counterattack.",
+      "name": "Wrathful Staff 2",
+      "effect": "At start of combat, if unit's HP ≥ 50%, calculates damage from staff like other weapons.",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 120,
@@ -50861,7 +52094,21 @@
         ""
       ],
       "weaponRestriction": [
-        "Colorless Staff"
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Red Breath",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Blue Breath",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Green Breath",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Breath"
       ],
       "type": "PASSIVE_B"
     },
@@ -51000,76 +52247,39 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Windsweep 1",
-      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd+5 and foe uses sword, lance, axe, bow, or dagger, foe cannot counterattack.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Wrathful Staff 1",
-      "effect": "At start of combat, if unit's HP = 100%, calculates damage from staff like other weapons.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Red Sword",
-        "Red Bow",
-        "Red Tome",
-        "Red Breath",
-        "Blue Lance",
-        "Blue Bow",
-        "Blue Tome",
-        "Blue Breath",
-        "Green Axe",
-        "Green Bow",
-        "Green Tome",
-        "Green Breath",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Breath"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Wrath 3",
-      "effect": "At start of turn, if unit's HP ≤ 75% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Bowbreaker 1",
       "effect": "If unit's HP ≥ 90% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 50,
+      "movementRestriction": [
+        "Flying"
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Bowbreaker 2",
+      "effect": "If unit's HP ≥ 70% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 100,
+      "movementRestriction": [
+        "Flying"
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Bowbreaker 3",
+      "effect": "If unit's HP ≥ 50% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 200,
       "movementRestriction": [
         "Flying"
       ],
@@ -51121,62 +52331,25 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Bowbreaker 2",
-      "effect": "If unit's HP ≥ 70% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
+      "name": "Wrath 2",
+      "effect": "At start of turn, if unit's HP ≤ 50% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.",
       "exclusive": false,
       "skillTier": 2,
-      "spCost": 100,
+      "spCost": 120,
       "movementRestriction": [
+        "Cavalry",
         "Flying"
       ],
       "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Bowbreaker 3",
-      "effect": "If unit's HP ≥ 50% in combat against a colorless bow foe, unit makes a guaranteed follow-up attack and foe cannot make a follow-up attack.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
-      "movementRestriction": [
-        "Flying"
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Aerobatics 1",
-      "effect": "If unit's HP = 100%, unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        "Infantry",
-        "Armored",
-        "Cavalry"
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Aerobatics 3",
-      "effect": "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        "Infantry",
-        "Armored",
-        "Cavalry"
-      ],
-      "weaponRestriction": [
-        ""
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -51205,6 +52378,113 @@
       ],
       "weaponRestriction": [
         ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Brash Assault 3",
+      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 200,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wrath 1",
+      "effect": "At start of turn, if unit's HP ≤ 25% and unit's attack triggers Special, grants Special cooldown count-1. Deals +10 damage when Special triggers.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wings of Mercy 3",
+      "effect": "If an ally's HP ≤ 50%, unit can move to a space adjacent to that ally.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Wings of Mercy 2",
+      "effect": "If an ally's HP ≤ 40%, unit can move to a space adjacent to that ally.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Watersweep 3",
+      "effect": "If unit initiates combat, unit cannot make a follow-up attack. If unit's Spd ≥ foe's Spd and foe uses magic, staff, or dragonstone, foe cannot counterattack.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Spd Feint 3",
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-7 on foes in cardinal directions of unit through their next actions.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Spd Feint 2",
+      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-5 on foes in cardinal directions of unit through their next actions.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -51335,76 +52615,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Brash Assault 3",
-      "effect": "If unit initiates combat against a foe that can counter and unit's HP ≤ 50%, unit makes a guaranteed follow-up attack.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Wrathful Staff 2",
-      "effect": "At start of combat, if unit's HP ≥ 50%, calculates damage from staff like other weapons.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Red Sword",
-        "Red Bow",
-        "Red Tome",
-        "Red Breath",
-        "Blue Lance",
-        "Blue Bow",
-        "Blue Tome",
-        "Blue Breath",
-        "Green Axe",
-        "Green Bow",
-        "Green Tome",
-        "Green Breath",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Breath"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Spd Feint 3",
-      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-7 on foes in cardinal directions of unit through their next actions.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Spd Feint 2",
-      "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-5 on foes in cardinal directions of unit through their next actions.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Spd Feint 1",
       "effect": "If a Rally Assist skill is used by unit or targets unit, inflicts Spd-3 on foes in cardinal directions of unit through their next actions.",
       "exclusive": false,
@@ -51429,6 +52639,89 @@
       ],
       "weaponRestriction": [
         ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Shield Pulse 3",
+      "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 5 when Special triggers.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Shield Pulse 2",
+      "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1. Reduces damage dealt to unit by 5 when Special triggers.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Shield Pulse 1",
+      "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Red Bow",
+        "Red Tome",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Seal Spd 3",
+      "effect": "Inflicts Spd-7 on foe through its next action after combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 160,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
       ],
       "type": "PASSIVE_B"
     },
@@ -51540,89 +52833,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Shield Pulse 3",
-      "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-2. Reduces damage dealt to unit by 5 when Special triggers.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 240,
-      "movementRestriction": [
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Shield Pulse 2",
-      "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1. Reduces damage dealt to unit by 5 when Special triggers.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
-      "movementRestriction": [
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Shield Pulse 1",
-      "effect": "At start of turn 1, if foe's attack triggers Special, grants Special cooldown count-1.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 60,
-      "movementRestriction": [
-        "Cavalry",
-        "Flying"
-      ],
-      "weaponRestriction": [
-        "Red Bow",
-        "Red Tome",
-        "Blue Bow",
-        "Blue Tome",
-        "Green Bow",
-        "Green Tome",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Seal Spd 3",
-      "effect": "Inflicts Spd-7 on foe through its next action after combat.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 160,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Seal Spd 2",
       "effect": "Inflicts Spd-5 on foe through its next action after combat.",
       "exclusive": false,
@@ -51693,34 +52903,6 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "S Drink",
-      "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
-      "exclusive": true,
-      "skillTier": 1,
-      "spCost": 300,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Sacae's Blessing",
-      "effect": "If foe uses sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
-      "exclusive": true,
-      "skillTier": 1,
-      "spCost": 300,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        ""
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Seal Def/Res 2",
       "effect": "Inflicts Def/Res-5 on foe through its next action after combat.",
       "exclusive": false,
@@ -51754,6 +52936,90 @@
       "exclusive": false,
       "skillTier": 3,
       "spCost": 160,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Seal Def 2",
+      "effect": "Inflicts Def-5 on foe through its next action after combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 80,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "S Drink",
+      "effect": "At the start of turn 1, restores 99 HP and grants Special cooldown count-1.",
+      "exclusive": true,
+      "skillTier": 1,
+      "spCost": 300,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Sacae's Blessing",
+      "effect": "If foe uses sword, lance, or axe, foe cannot counterattack. (Skill cannot be inherited.)",
+      "exclusive": true,
+      "skillTier": 1,
+      "spCost": 300,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Seal Def 1",
+      "effect": "Inflicts Def-3 on foe through its next action after combat.",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 40,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Seal Atk/Spd 2",
+      "effect": "Inflicts Atk/Spd-5 on foe through its next action after combat.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 200,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_B"
+    },
+    {
+      "name": "Seal Atk/Spd 1",
+      "effect": "Inflicts Atk/Spd-3 on foe through its next action after combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 100,
       "movementRestriction": [
         ""
       ],
@@ -51833,64 +53099,8 @@
       "type": "PASSIVE_B"
     },
     {
-      "name": "Seal Atk/Spd 1",
-      "effect": "Inflicts Atk/Spd-3 on foe through its next action after combat.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 100,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Seal Atk/Spd 2",
-      "effect": "Inflicts Atk/Spd-5 on foe through its next action after combat.",
-      "exclusive": false,
-      "skillTier": 3,
-      "spCost": 200,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Seal Def 1",
-      "effect": "Inflicts Def-3 on foe through its next action after combat.",
-      "exclusive": false,
-      "skillTier": 1,
-      "spCost": 40,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
-      "name": "Seal Def 2",
-      "effect": "Inflicts Def-5 on foe through its next action after combat.",
-      "exclusive": false,
-      "skillTier": 2,
-      "spCost": 80,
-      "movementRestriction": [
-        ""
-      ],
-      "weaponRestriction": [
-        "Colorless Staff"
-      ],
-      "type": "PASSIVE_B"
-    },
-    {
       "name": "Wrathful Staff 3",
-      "effect": "Calculate damage from staff like other weapons.",
+      "effect": "Calculates damage from staff like other weapons.",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
@@ -52072,7 +53282,7 @@
     },
     {
       "name": "R Tome Valor 3",
-      "effect": "If unit survives, all red tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all red tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -52100,7 +53310,7 @@
     },
     {
       "name": "R Tome Valor 2",
-      "effect": "If unit survives, all red tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all red tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -52128,7 +53338,7 @@
     },
     {
       "name": "R Tome Valor 1",
-      "effect": "If unit survives and uses a red tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a red tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -52156,7 +53366,7 @@
     },
     {
       "name": "R Tome Exp. 3",
-      "effect": "If unit survives combat, all red tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all red tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -52179,6 +53389,90 @@
         "Colorless Dagger",
         "Colorless Staff",
         "Colorless Breath"
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
+      "name": "R Tome Exp. 2",
+      "effect": "While unit lives, all red tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Sword",
+        "Red Bow",
+        "Red Breath",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Blue Breath",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Green Breath",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff",
+        "Colorless Breath"
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
+      "name": "R Tome Exp. 1",
+      "effect": "While unit lives and uses a red tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "exclusive": false,
+      "skillTier": 1,
+      "spCost": 30,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Sword",
+        "Red Bow",
+        "Red Breath",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Blue Breath",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Green Breath",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff",
+        "Colorless Breath"
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
+      "name": "Panic Ploy 3",
+      "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions.",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
+      "name": "Panic Ploy 2",
+      "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-3 into penalties through their next actions.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
       ],
       "type": "PASSIVE_C"
     },
@@ -52309,64 +53603,36 @@
       "type": "PASSIVE_C"
     },
     {
-      "name": "R Tome Exp. 2",
-      "effect": "If unit survives combat, all red tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "name": "Panic Ploy 1",
+      "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-5 into penalties through their next actions.",
       "exclusive": false,
-      "skillTier": 2,
+      "skillTier": 1,
       "spCost": 60,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        "Red Sword",
-        "Red Bow",
-        "Red Breath",
-        "Blue Lance",
-        "Blue Bow",
-        "Blue Tome",
-        "Blue Breath",
-        "Green Axe",
-        "Green Bow",
-        "Green Tome",
-        "Green Breath",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff",
-        "Colorless Breath"
+        ""
       ],
       "type": "PASSIVE_C"
     },
     {
-      "name": "R Tome Exp. 1",
-      "effect": "If unit survives and uses a red tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
-      "exclusive": false,
+      "name": "Ostia's Pulse",
+      "effect": "At the start of turn 1, grants Special cooldown count-1 to all allies. Granted only if number of those allies' movement types on current team ≤ 2.",
+      "exclusive": true,
       "skillTier": 1,
-      "spCost": 30,
+      "spCost": 300,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        "Red Sword",
-        "Red Bow",
-        "Red Breath",
-        "Blue Lance",
-        "Blue Bow",
-        "Blue Tome",
-        "Blue Breath",
-        "Green Axe",
-        "Green Bow",
-        "Green Tome",
-        "Green Breath",
-        "Colorless Bow",
-        "Colorless Dagger",
-        "Colorless Staff",
-        "Colorless Breath"
+        ""
       ],
       "type": "PASSIVE_C"
     },
     {
-      "name": "Panic Ploy 3",
-      "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP < unit's HP into penalties through their next actions.",
+      "name": "Odd Res Wave 3",
+      "effect": "At start of odd-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
@@ -52379,8 +53645,8 @@
       "type": "PASSIVE_C"
     },
     {
-      "name": "Panic Ploy 2",
-      "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-3 into penalties through their next actions.",
+      "name": "Odd Res Wave 2",
+      "effect": "At start of odd-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 120,
@@ -52393,8 +53659,8 @@
       "type": "PASSIVE_C"
     },
     {
-      "name": "Panic Ploy 1",
-      "effect": "At start of turn, converts bonuses on foes in cardinal directions with HP ≤ unit's HP-5 into penalties through their next actions.",
+      "name": "Odd Res Wave 1",
+      "effect": "At start of odd-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 60,
@@ -52450,7 +53716,7 @@
     },
     {
       "name": "Lance Valor 3",
-      "effect": "If unit survives, all lance allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all lance allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -52478,7 +53744,7 @@
     },
     {
       "name": "Lance Valor 2",
-      "effect": "If unit survives, all lance allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all lance allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -52506,7 +53772,7 @@
     },
     {
       "name": "Lance Valor 1",
-      "effect": "If unit survives and uses a lance, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a lance, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -52537,7 +53803,7 @@
       "effect": "Infantry allies within 2 spaces gain: \"If unit's Atk ≥ foe's Atk+1, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
       "exclusive": false,
       "skillTier": 3,
-      "spCost": 0,
+      "spCost": 240,
       "movementRestriction": [
         "Armored",
         "Cavalry",
@@ -52550,10 +53816,10 @@
     },
     {
       "name": "Infantry Rush 2",
-      "effect": "",
+      "effect": "Infantry allies within 2 spaces gain: \"If unit's Atk ≥ foe's Atk+3, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
       "exclusive": false,
       "skillTier": 2,
-      "spCost": 0,
+      "spCost": 120,
       "movementRestriction": [
         "Armored",
         "Cavalry",
@@ -52608,7 +53874,7 @@
     },
     {
       "name": "Spur Atk/Def 1",
-      "effect": "Grants adjacent allies Atk/Def +2 during combat.",
+      "effect": "Grants Atk/Def+2 to adjacent allies during combat.",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 120,
@@ -52622,7 +53888,7 @@
     },
     {
       "name": "Spur Atk/Def 2",
-      "effect": "Grants adjacent allies Atk/Def +3 during combat.",
+      "effect": "Grants Atk/Def+3 to adjacent allies during combat.",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
@@ -52636,7 +53902,7 @@
     },
     {
       "name": "Spur Atk/Spd 1",
-      "effect": "Atk/Spd+2 to adjacent allies during combat.",
+      "effect": "Grants Atk/Spd+2 to adjacent allies during combat.",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 120,
@@ -52650,7 +53916,7 @@
     },
     {
       "name": "Spur Atk/Spd 2",
-      "effect": "Atk/Spd+3 to adjacent allies during combat.",
+      "effect": "Grants Atk/Spd+3 to adjacent allies during combat.",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 240,
@@ -52846,10 +54112,10 @@
     },
     {
       "name": "Infantry Rush 1",
-      "effect": "",
+      "effect": "Infantry allies within 2 spaces gain: \"If unit's Atk ≥ foe's Atk+5, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)\"",
       "exclusive": false,
       "skillTier": 1,
-      "spCost": 0,
+      "spCost": 60,
       "movementRestriction": [
         "Armored",
         "Cavalry",
@@ -53188,7 +54454,7 @@
     },
     {
       "name": "G Tome Valor 3",
-      "effect": "If unit survives, all green tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -53216,7 +54482,7 @@
     },
     {
       "name": "G Tome Valor 2",
-      "effect": "If unit survives, all green tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -53244,7 +54510,7 @@
     },
     {
       "name": "G Tome Valor 1",
-      "effect": "If unit survives and uses a green tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a green tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -53272,7 +54538,7 @@
     },
     {
       "name": "G Tome Exp. 3",
-      "effect": "If unit survives, all green tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -53300,7 +54566,7 @@
     },
     {
       "name": "G Tome Exp. 2",
-      "effect": "If unit survives, all green tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all green tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -53328,7 +54594,7 @@
     },
     {
       "name": "G Tome Exp. 1",
-      "effect": "If unit survives and uses a green tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a green tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -53698,8 +54964,72 @@
       "type": "PASSIVE_C"
     },
     {
+      "name": "Drive Atk 1",
+      "effect": "Grants Atk+2 to allies within 2 spaces during combat.",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
+      "name": "Dragon Valor 3",
+      "effect": "While unit lives, all dragonstone allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "exclusive": false,
+      "skillTier": 3,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
+      "name": "Dragon Valor 2",
+      "effect": "While unit lives, all dragonstone allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "exclusive": false,
+      "skillTier": 2,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
+      ],
+      "type": "PASSIVE_C"
+    },
+    {
       "name": "Sword Exp. 1",
-      "effect": "If unit survives, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a sword, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -53727,7 +55057,7 @@
     },
     {
       "name": "Sword Exp. 2",
-      "effect": "If unit survives, all sword allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -53755,7 +55085,7 @@
     },
     {
       "name": "Sword Exp. 3",
-      "effect": "If unit survives, all sword allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -53783,7 +55113,7 @@
     },
     {
       "name": "Sword Valor 1",
-      "effect": "If unit survives and uses a sword, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a sword, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -53811,7 +55141,7 @@
     },
     {
       "name": "Sword Valor 2",
-      "effect": "If unit survives, all sword allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -53839,7 +55169,7 @@
     },
     {
       "name": "Sword Valor 3",
-      "effect": "If unit survives, all sword allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all sword allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -53866,16 +55196,27 @@
       "type": "PASSIVE_C"
     },
     {
-      "name": "Drive Atk 1",
-      "effect": "Grants Atk+2 to allies within 2 spaces during combat.",
+      "name": "Dragon Valor 1",
+      "effect": "While unit lives and uses a dragonstone, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
-      "skillTier": 2,
-      "spCost": 120,
+      "skillTier": 1,
+      "spCost": 30,
       "movementRestriction": [
         ""
       ],
       "weaponRestriction": [
-        ""
+        "Red Sword",
+        "Red Bow",
+        "Red Tome",
+        "Blue Lance",
+        "Blue Bow",
+        "Blue Tome",
+        "Green Axe",
+        "Green Bow",
+        "Green Tome",
+        "Colorless Bow",
+        "Colorless Dagger",
+        "Colorless Staff"
       ],
       "type": "PASSIVE_C"
     },
@@ -54175,7 +55516,7 @@
     },
     {
       "name": "Dagger Valor 3",
-      "effect": "If unit survives, all dagger allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all dagger allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54203,7 +55544,7 @@
     },
     {
       "name": "Dagger Valor 2",
-      "effect": "If unit survives, all dagger allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all dagger allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54231,7 +55572,7 @@
     },
     {
       "name": "Dagger Valor 1",
-      "effect": "If unit survives and uses a dagger, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a dagger, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -54374,7 +55715,7 @@
     },
     {
       "name": "Bow Valor 3",
-      "effect": "If unit survives, all bow allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54399,7 +55740,7 @@
     },
     {
       "name": "Bow Valor 2",
-      "effect": "If unit survives, all bow allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54424,7 +55765,7 @@
     },
     {
       "name": "Bow Valor 1",
-      "effect": "If unit survives and uses a bow, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a bow, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -54449,7 +55790,7 @@
     },
     {
       "name": "Bow Exp. 3",
-      "effect": "If unit survives, all bow allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54474,7 +55815,7 @@
     },
     {
       "name": "Bow Exp. 2",
-      "effect": "If unit survives, all bow allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all bow allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54499,7 +55840,7 @@
     },
     {
       "name": "Bow Exp. 1",
-      "effect": "If unit survives and uses a bow, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a bow, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -54524,7 +55865,7 @@
     },
     {
       "name": "B Tome Valor 3",
-      "effect": "If unit survives, all blue tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54552,7 +55893,7 @@
     },
     {
       "name": "B Tome Valor 2",
-      "effect": "If unit survives, all blue tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54580,7 +55921,7 @@
     },
     {
       "name": "B Tome Valor 1",
-      "effect": "If unit survives and uses a blue tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a blue tome, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -54608,7 +55949,7 @@
     },
     {
       "name": "B Tome Exp. 3",
-      "effect": "If unit survives, all blue tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54636,7 +55977,7 @@
     },
     {
       "name": "B Tome Exp. 2",
-      "effect": "If unit survives, all blue tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all blue tome allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54664,7 +56005,7 @@
     },
     {
       "name": "B Tome Exp. 1",
-      "effect": "If unit survives and uses a blue tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses a blue tome, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -54692,7 +56033,7 @@
     },
     {
       "name": "Axe Valor 3",
-      "effect": "If unit survives, all axe allies on team get 2x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 2x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54720,7 +56061,7 @@
     },
     {
       "name": "Axe Valor 2",
-      "effect": "If unit survives, all axe allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54748,7 +56089,7 @@
     },
     {
       "name": "Axe Valor 1",
-      "effect": "If unit survives and uses an axe, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses an axe, unit gets 1.5x SP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -54776,7 +56117,7 @@
     },
     {
       "name": "Axe Exp. 3",
-      "effect": "If unit survives, all axe allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 2x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 3,
       "spCost": 120,
@@ -54804,7 +56145,7 @@
     },
     {
       "name": "Axe Exp. 2",
-      "effect": "If unit survives, all axe allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives, all axe allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 2,
       "spCost": 60,
@@ -54832,7 +56173,7 @@
     },
     {
       "name": "Axe Exp. 1",
-      "effect": "If unit survives and uses an axe, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
+      "effect": "While unit lives and uses an axe, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)",
       "exclusive": false,
       "skillTier": 1,
       "spCost": 30,
@@ -55725,6 +57066,48 @@
       "type": "SEAL"
     },
     {
+      "name": "Flashing Blade 1",
+      "effect": "If unit's Spd ≥ foe's Spd+5, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Flashing Blade 2",
+      "effect": "If unit's Spd ≥ foe's Spd+3, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Flashing Blade 3",
+      "effect": "If unit's Spd > foe's Spd, grants Special cooldown charge +1 per attack. (Only highest value applied. Does not stack.)",
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        "Cavalry",
+        "Flying"
+      ],
+      "weaponRestriction": [
+        "Colorless Staff"
+      ],
+      "type": "SEAL"
+    },
+    {
       "name": "Flier Formation 1",
       "effect": "If unit HP = 100%, unit can move to a space adjacent to a flying ally within 2 spaces.",
       "skillTier": 1,
@@ -56157,6 +57540,32 @@
       "effect": "Grants HP+5.",
       "skillTier": 3,
       "spCost": 160,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "HP/Res 1",
+      "effect": "Grants HP+3, Res+1.",
+      "skillTier": 2,
+      "spCost": 100,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "HP/Res 2",
+      "effect": "Grants HP+4, Res+2.",
+      "skillTier": 3,
+      "spCost": 200,
       "movementRestriction": [
         ""
       ],
@@ -56912,6 +58321,45 @@
       "type": "SEAL"
     },
     {
+      "name": "Spd Ploy 1",
+      "effect": "At start of turn, inflicts Spd-3 on foes in cardinal directions with Res < unit's Res through their next actions.",
+      "skillTier": 1,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Spd Ploy 2",
+      "effect": "At start of turn, inflicts Spd-4 on foes in cardinal directions with Res < unit's Res through their next actions.",
+      "skillTier": 2,
+      "spCost": 120,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Spd Ploy 3",
+      "effect": "At start of turn, inflicts Spd-5 on foes in cardinal directions with Res < unit's Res through their next actions.",
+      "skillTier": 3,
+      "spCost": 240,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
       "name": "Spd Smoke 1",
       "effect": "Inflicts Spd-3 on foes within 2 spaces of target through their next actions after combat.",
       "skillTier": 1,
@@ -57566,6 +59014,45 @@
       "effect": "Grants HP+5.",
       "skillTier": 3,
       "spCost": 160,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Squad Ace L 1",
+      "effect": "Grants Def+1.",
+      "skillTier": 1,
+      "spCost": 30,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Squad Ace L 2",
+      "effect": "Grants Def+2.",
+      "skillTier": 2,
+      "spCost": 60,
+      "movementRestriction": [
+        ""
+      ],
+      "weaponRestriction": [
+        ""
+      ],
+      "type": "SEAL"
+    },
+    {
+      "name": "Squad Ace L 3",
+      "effect": "Grants Def+3.",
+      "skillTier": 3,
+      "spCost": 120,
       "movementRestriction": [
         ""
       ],
